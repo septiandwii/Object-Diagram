@@ -17,3 +17,17 @@ main .notasi{
 main article.notasi {
     margin-top: 100px;
 }
+#diagram {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+#diagram img {
+    width: 480px;
+    transition: transform 0.3s ease; 
+}
+#diagram img:hover {
+    transform: scale(1.2);
+}

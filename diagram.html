@@ -35,7 +35,7 @@
          <div class="loader"><img src="images/loading.gif" alt="#"/></div>
       </div>
       <!-- header -->
-      <div class="header">
+      <div class="header sticky-top">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class=" col-md-2 col-sm-3 col logo_section">
@@ -89,7 +89,7 @@
          </article>
          <article class="notasi">
             <div class="container mt-4">
-               <div class="row mb-4">
+               <div class="row mb-4" id="object-1">
                   <div class="col-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn red" data-toggle="modal" data-target="#object">
@@ -115,6 +115,7 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/1.png" alt="">
                      <p>
                         Ketika membuat instance pengklasifikasi dalam suatu sistem, objek yang dibuat mewakili entitas yang ada dalam sistem. Perubahan objek dari waktu ke waktu dapat direpresentasikan dengan membuat beberapa spesifikasi instance. Persegi panjang digunakan untuk mewakili objek dalam diagram objek.
                      </p>
@@ -123,7 +124,7 @@
                      </p>
                   </div>
                </div>
-               <div class="row mb-4">
+               <div class="row mb-4" id="link-2">
                   <div class="col-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn blue" data-toggle="modal" data-target="#link">
@@ -149,13 +150,14 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/2.png" alt="">
                      <p>
                         Sebuah link berbentuk garis lurus digunakan untuk merepresentasikan hubungan antara dua objek. Istilah tautan digunakan untuk menentukan hubungan antara dua spesifikasi objek.
                      </p>
 
                   </div>
                </div>
-               <div class="row mb-4">
+               <div class="row mb-4" id="dependency-3">
                   <div class="col-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn red" data-toggle="modal" data-target="#dependency">
@@ -181,6 +183,7 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/3.png" alt="">
                      <p>
                         Dependency Relationship digunakan untuk menunjukkan kapan satu elemen bergantung pada elemen lainnya. Ketergantungan digunakan untuk menggambarkan hubungan antara entitas dependen dan independen dalam sistem.
                      </p>
@@ -189,7 +192,7 @@
                      </p>
                   </div>
                </div>
-               <div class="row">
+               <div class="row" id="association-4">
                   <div class="col-4 mb-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn blue" data-toggle="modal" data-target="#association">
@@ -215,13 +218,14 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/4.png" alt="">
                      <p>
                         Asosiasi adalah hubungan referensi antara dua objek (atau kelas) yang diwakili dengan bentuk panah. Garis asosiasi menghubungkan dua kotak objek, mewakili hubungan antara instance dari dua kePenggunaan komponen/notasi ini adalah ketika satu objek mereferensikan anggota objek lainnya. Asosiasi dapat bersifat satu arah atau dua arah.   
                      </p>
                      
                   </div>
                </div>
-               <div class="row mb-4">
+               <div class="row mb-4" id="aggreration-5">
                   <div class="col-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn red" data-toggle="modal" data-target="#aggreration">
@@ -247,12 +251,13 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/5.png" alt="">
                      <p>
                         Agregasi mewakili hubungan “memiliki”. Agregasi adalah bentuk asosiasi tertentu. Agregasi terjadi ketika siklus hidup objek yang ditampung tidak terlalu bergantung pada siklus hidup objek kontainer.
                      </p>
                   </div>
                </div>
-               <div class="row">
+               <div class="row" id="composition-6">
                   <div class="col-4 mb-4">
                      <!-- Button trigger modal -->
                      <button type="button" class="btn blue" data-toggle="modal" data-target="#composition">
@@ -278,6 +283,7 @@
                      
                   </div>
                   <div class="col-8">
+                     <img src="./images/diagram/6.png" alt="">
                      <p>
                         Notasi komposisi dalam diagram objek adalah cara untuk menggambarkan hubungan antara dua kelas di mana satu kelas adalah bagian dari kelas yang lain secara permanen atau tidak dapat berdiri sendiri. Dalam notasi ini, objek yang termasuk (komponen) tidak bisa ada tanpa objek yang memilikinya (komposer). Ini menunjukkan hubungan "berkomposisi dari" atau "milik" antara dua kelas.   
                      </p>
