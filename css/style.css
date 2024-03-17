@@ -603,6 +603,64 @@ ul.email li i {
 
 /** end about section **/
 
+.fungsi {
+     display: flex;
+     flex-wrap: wrap;
+     
+ }
+ .box {
+     position: relative;
+     width: calc(14.28% - 20px); /* Menggunakan 14.28% untuk membagi ruang secara merata dalam satu baris */
+     margin: 10px;
+     box-sizing: border-box;
+     text-align: center;
+     padding: 20px;
+     position: relative;
+     color: white;
+ }
+ .oren {
+     background-color: #f0390f;
+ }
+ .oren h2{
+     color: white;
+     font-weight: bold;
+ }
+ .biru {
+     background-color: #3e0bce;
+ }
+ .biru h2{
+     color: white;
+     font-weight: bold;
+ }
+ .circle-biru {
+     width: 50px; /* Ukuran lingkaran */
+     height: 50px; /* Ukuran lingkaran */
+     border-radius: 50%; /* Membuat kotak menjadi lingkaran */
+     background-color: #3e0bce; /* Warna latar belakang lingkaran */
+     display: flex; /* Menggunakan display flex untuk menengahkan angka */
+     justify-content: center; /* Menengahkan angka secara horizontal */
+     align-items: center; /* Menengahkan angka secara vertikal */
+     color: white; /* Warna teks */
+     font-weight: bold; /* Mengatur teks menjadi tebal */
+     margin: -35px auto 0; /* Mengatur margin atas dan bawah serta secara otomatis menengahkan lingkaran secara horizontal */
+ }
+ .circle-oren {
+     width: 50px; /* Ukuran lingkaran */
+     height: 50px; /* Ukuran lingkaran */
+     border-radius: 50%; /* Membuat kotak menjadi lingkaran */
+     background-color: #f0390f; 
+     display: flex; /* Menggunakan display flex untuk menengahkan angka */
+     justify-content: center; /* Menengahkan angka secara horizontal */
+     align-items: center; /* Menengahkan angka secara vertikal */
+     color: white; /* Warna teks */
+     font-weight: bold; /* Mengatur teks menjadi tebal */
+     margin: -35px auto 0; /* Mengatur margin atas dan bawah serta secara otomatis menengahkan lingkaran secara horizontal */
+ }
+
+ 
+ 
+
+ 
 
 /** skating **/
 
