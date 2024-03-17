@@ -87,6 +87,204 @@
                <h5>Object Diagram</h5>
             </div>
          </article>
+         <article class="notasi">
+            <div class="container mt-4">
+               <div class="row mb-4">
+                  <div class="col-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn red" data-toggle="modal" data-target="#object">
+                        <img src="./images/notation/object_box.png" alt="Object Box">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="object" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Object Box</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/object_box.png" alt="Object Box">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Ketika membuat instance pengklasifikasi dalam suatu sistem, objek yang dibuat mewakili entitas yang ada dalam sistem. Perubahan objek dari waktu ke waktu dapat direpresentasikan dengan membuat beberapa spesifikasi instance. Persegi panjang digunakan untuk mewakili objek dalam diagram objek.
+                     </p>
+                     <p>
+                        Adapun attributes beserta nilainya dituliskan di dalam Object Box seperti tampak pada gambar.
+                     </p>
+                  </div>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn blue" data-toggle="modal" data-target="#link">
+                        <img src="./images/notation/link.png" alt="link">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="link" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Link</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/link.png" alt="Link">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Sebuah link berbentuk garis lurus digunakan untuk merepresentasikan hubungan antara dua objek. Istilah tautan digunakan untuk menentukan hubungan antara dua spesifikasi objek.
+                     </p>
+
+                  </div>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn red" data-toggle="modal" data-target="#dependency">
+                        <img src="./images/notation/dependency_relationship.png" alt="Dependency Relationship">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="dependency" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Dependency Relationship</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/dependency_relationship.png" alt="dependency_relationship">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Dependency Relationship digunakan untuk menunjukkan kapan satu elemen bergantung pada elemen lainnya. Ketergantungan digunakan untuk menggambarkan hubungan antara entitas dependen dan independen dalam sistem.
+                     </p>
+                     <p>
+                        Setiap perubahan dalam definisi atau struktur suatu elemen dapat menyebabkan perubahan pada elemen lainnya. Ini adalah jenis hubungan searah antara dua objek. Selain itu, ada berbagai jenis dependency relationship yang ditentukan dengan kata kunci seperti Abstraksi, Pengikatan, Realisasi, Substitusi dan Penggunaan.
+                     </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-4 mb-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn blue" data-toggle="modal" data-target="#association">
+                        <img src="./images/notation/association.png" alt="link">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="association" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Association</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/association.png" alt="association">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Asosiasi adalah hubungan referensi antara dua objek (atau kelas) yang diwakili dengan bentuk panah. Garis asosiasi menghubungkan dua kotak objek, mewakili hubungan antara instance dari dua kePenggunaan komponen/notasi ini adalah ketika satu objek mereferensikan anggota objek lainnya. Asosiasi dapat bersifat satu arah atau dua arah.   
+                     </p>
+                     
+                  </div>
+               </div>
+               <div class="row mb-4">
+                  <div class="col-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn red" data-toggle="modal" data-target="#aggreration">
+                        <img src="./images/notation/aggreration.png" alt="Object Box">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="aggreration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Aggreration</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/aggreration.png" alt="Object Box">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Agregasi mewakili hubungan “memiliki”. Agregasi adalah bentuk asosiasi tertentu. Agregasi terjadi ketika siklus hidup objek yang ditampung tidak terlalu bergantung pada siklus hidup objek kontainer.
+                     </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-4 mb-4">
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn blue" data-toggle="modal" data-target="#composition">
+                        <img src="./images/notation/composition.png" alt="link">
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="composition" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Composition</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <img src="./images/notation/composition.png" alt="Link">
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-8">
+                     <p>
+                        Notasi komposisi dalam diagram objek adalah cara untuk menggambarkan hubungan antara dua kelas di mana satu kelas adalah bagian dari kelas yang lain secara permanen atau tidak dapat berdiri sendiri. Dalam notasi ini, objek yang termasuk (komponen) tidak bisa ada tanpa objek yang memilikinya (komposer). Ini menunjukkan hubungan "berkomposisi dari" atau "milik" antara dua kelas.   
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </article>
       </main>
       <!-- end about -->
       <!--  footer -->
