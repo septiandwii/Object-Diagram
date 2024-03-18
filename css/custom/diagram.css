@@ -8,6 +8,18 @@ main .notasi{
 .red {
     background-color: #f0390f;
 }
+.transparant {
+    background-color: transparent;
+}
+#diagramfoto {
+    width: 700px;
+}
+#semuapenjelasan ol li {
+    list-style:decimal;
+}
+.text_align_left, .text_align_left li {
+    font-size: 20px;
+}
 .blue {
     background-color: #3e0bce;
 }
